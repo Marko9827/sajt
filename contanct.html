@@ -27,7 +27,7 @@
 
                     <li><a class="Normalno" href="/about.html">About</a></li>
                     <li><a class="active" href="/contanct.html">Contact</a></li>
-                    <li><a class="Normalno1" href="#" onclick="myFunction()">&#9776;</a></li>
+                    <li><a class="Normalno1" style="cursor:pointer" onclick="openNav()">&#9776;</a></li>
 
                 </ul>
 
@@ -95,8 +95,17 @@
 
 
 
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contanct.html">Contact</a>
+        </div>
+    </div>
+
     <!-- -> Ostali JS fajlovi -> -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 
     <!-- <- Ostali JS fajlovi <- -->
 
