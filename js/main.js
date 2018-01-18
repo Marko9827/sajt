@@ -61,7 +61,7 @@ function onclick_yt() {
 }
 
 function onclick_Go1() {
-    window.location.href = '/pages/page1.html';
+    window.location.href = '/sajt/pages/page1.html';
  
 
 }
