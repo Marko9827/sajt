@@ -1,0 +1,862 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: white;
+    font-family: Roboto,sans-serif;
+  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+#header {
+    position: fixed;
+    width: 100%;
+}
+
+    #header #Meni ul.topnav {
+        list-style-type: none;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    }
+
+        #header #Meni ul.topnav li {
+            float: left;
+        }
+
+            #header #Meni ul.topnav li a {
+                display: block;
+                color: #414141;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            #header #Meni ul.topnav li .Normalno1 {
+                display: none;
+            }
+
+.fa-bars {
+    font-size: 10px;
+}
+
+
+
+ul.topnav li a:hover:not(.active) {
+    border-bottom: solid 4px #333;
+}
+
+ul.topnav li a.active {
+    /*  background-color: rgb(87, 87, 87); */
+    border-bottom: solid 4px #333;
+    color: red;
+}
+
+
+#header #Meni ul.topnav li.desno {
+    float: right; /*float orjentacija dockpanel.dock="right"*/
+}
+
+    #header #Meni ul.topnav li.desno:hover {
+        /* border-right: 4px white solid;
+   */
+    }
+
+#header #TekstIntegrisani {
+}
+
+    #header #TekstIntegrisani:hover {
+        border: transparent;
+    }
+
+
+
+
+/* ceo kontekt tekst donji --> */
+.responsive .gallery #Text {
+    height: 100px;
+}
+/* ceo kontekt tekst donji <-- */
+
+
+content #tekst2 {
+    margin: 0px;
+    margin-top: -10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+    content #tekst2 p {
+        font-size: 20pt;
+        color: #333;
+    }
+
+    content #tekst2 h1 {
+        font-size: 15px;
+        color: #333;
+    }
+
+
+
+.responsive .gallery img {
+}
+
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-top: 65px;
+    height: 170px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+        margin-top: 156px;
+    }
+    
+    
+
+    content #slike {
+        margin-top: -140px;
+    }
+
+
+    /* header */
+
+    #header {
+        position: relative;
+        width: 100%;
+    }
+
+        #header #Meni ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+            width: 100%;
+            margin-left: 0px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+        }
+
+            #header #Meni ul.topnav li {
+                float: left;
+            }
+
+                #header #Meni ul.topnav li a {
+                    display: block;
+                    color: #414141;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+
+
+            #header #Meni ul.topnav .Normalno
+    /* Kraj */
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+    
+    
+  
+   
+}
+
+
+
+content .Margin_form .sve #name, #email, #message, #name {
+    border: #5555 1px solid;
+    border-radius: 5px;
+    color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    margin-left: 10px;
+    margin-bottom: 15px;
+    height: 35px;
+    min-width: 400px;
+    min-height: 50px;
+}
+
+
+
+    content .Margin_form .sve #name:hover {
+        border-left: 4px solid #333;
+    }
+
+content .Margin_form .sve #email:hover {
+    border-left: 4px solid #333;
+}
+
+content .Margin_form .sve #message:hover {
+    border-left: 4px solid #333;
+}
+
+
+content .Margin_form .sve #message {
+    height: 150px;
+}
+
+content #slike .Margin_form {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-top: 65px;
+}
+
+
+content #slike1 {
+    width: 100%;
+    padding: 15px 0px 0px 15px;
+}
+
+
+    content #slike1 .gallery1 {
+        width: 100%;
+    }
+
+content #slike #fa_Style {
+    font-size: 120px;
+    text-align: center;
+    margin-top: 14px;
+    color: #333;
+}
+
+content #slike .desc {
+    height: 150px;
+}
+
+content #slike #button {
+    height: 30px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    background: transparent;
+    color: #333;
+    border: 0px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-left: 4px #333 solid;
+    cursor: pointer;
+}
+
+
+
+
+    content #slike #button:hover {
+        border-left: 4px white solid;
+        color: white;
+        background: #414141;
+    }
+
+
+
+content #slike .gallery:hover {
+    color: white;
+}
+
+content #slike .gallery #fa_Style:hover {
+    color: white;
+}
+
+content #slike {
+    text-align: center;
+}
+
+#Content #slike {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+content .Margin_form .sve .Name_label {
+    margin-left: 10px;
+    color: #333;
+}
+
+content .Margin_form .sve {
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+    content .Margin_form .sve #button {
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+        background: transparent;
+        color: #333;
+        border: 0px;
+        font-size: 15px;
+        width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+content #tekst2 {
+    margin-top: +80px;
+}
+
+content .Margin_form .sve #button:hover {
+    border-left: 4px solid #333;
+}
+
+
+content #LineParc {
+    height: 2px;
+    width: 100%;
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+content #About {
+}
+
+    content #About #Slika {
+        padding-top: 70px;
+        padding-left: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+        height: 450px;
+    }
+
+        content #About #Slika #slika1 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+            width: 252px;
+            height: 340px;
+            background: #333;
+            border-radius: 10px;
+        }
+
+            content #About #Slika #slika1 img {
+                margin-bottom: 4px;
+                height: 340px;
+                border-bottom: 4px #333 solid;
+                margin-top: 10px;
+            }
+
+
+
+        content #About #Slika #opis .bardesno {
+            margin-left: -48px;
+            margin-top: 228px;
+        }
+
+        content #About #Slika #About_F {
+        }
+
+            content #About #Slika #About_F .opisz {
+                list-style-type: none;
+                margin-left: 230px;
+                margin-top: -355px;
+            }
+
+                content #About #Slika #About_F .opisz h2 {
+                    color: #333;
+                }
+
+
+
+                content #About #Slika #About_F .opisz p {
+                    margin-top: 1px;
+                }
+
+            content #About #Slika #About_F a {
+                text-decoration: none;
+                color: #333;
+            }
+
+                content #About #Slika #About_F a:hover {
+                    color: #6d6d6d;
+                }
+
+
+        content #About #Slika #instagramdugme ul li {
+            margin-left: -10px;
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        content #About #Slika #instagramdugme #button {
+            text-decoration: none;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+            background: white;
+            color: #333;
+            border: 0px;
+            font-size: 15px;
+            width: 230px;
+            height: 30px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border-left: 4px #333 solid;
+            margin-left: -235px;
+            margin-right: 10px;
+            text-align: left;
+            text-decoration: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+            content #About #Slika #instagramdugme #button:hover {
+                background: #333;
+                border-left: 4px white solid;
+                color: white;
+            }
+
+
+        content #About #Slika #opis .bardesno li {
+            float: left;
+            list-style-type: none;
+            margin-left: 8px;
+            font-size: 19px;
+            margin-top: -20px;
+            color: #333;
+        }
+
+            content #About #Slika #opis .bardesno li a {
+                color: #333;
+            }
+
+
+                Content #About #Slika #opis .bardesno li a:hover {
+                    color: #555555;
+                }
+
+
+
+
+
+
+content .slika {
+    float: left;
+    width: 33.33%;
+    padding: 15px 0px 0px 15px;
+}
+
+
+
+
+/*Nestaju */
+content .slike:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Slike {Pomeraju se} */
+@media (max-width:600px) {
+    content .slika {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:500px) {
+    content .slike {
+        width: 40px;
+    }
+    
+    
+}
+
+
+
+content {
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+    content #panel {
+        height: 10px;
+        width: 10px;
+        margin-top: 100px;
+    }
+
+#tekst textarea {
+    margin: 30px;
+    height: 10px;
+}
+
+
+
+#Content #tekst .Email {
+    margin-left: 30px;
+    color: red;
+    width: 400px;
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 790px) {
+    #header form .search {
+        display: none;
+    }
+    
+      .footer{
+        height: 100px;
+        width: 100xp;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    #header #Meni ul.topnav li.right,
+    #header #Meni ul.topnav li {
+        float: left;
+        position: initial;
+    }
+
+        #header #Meni ul.topnav li .Normalno {
+            display: none;
+        }
+
+        #header #Meni ul.topnav li .Normalno1 {
+            float: right;
+            position: absolute;
+            display: block;
+            margin-bottom: 0px;
+        }
+
+        #header #Meni ul.topnav li a .Normalno1:hover {
+            margin-bottom: 0px;
+        }
+    
+    
+}
+
+
+
+
+content {
+    margin-top: 40px;
+}
+
+    content #slike {
+        margin-left: 3px;
+        margin-right: 4px;
+    }
+
+
+
+    content #youtube {
+        height: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        border-top: 10px #333 solid;
+        border-bottom: 10px #f33 solid;
+    }
+
+        content #youtube #youtube2 {
+            width: 100%;
+            height: 330px;
+            padding-bottom: 1px;
+            margin-bottom: -6px;
+        }
+
+        content #youtube .j p {
+            margin-left: 10px;
+        }
+
+        content #youtube .j {
+            float: center;
+            height: 100%;
+        }
+
+
+            content #youtube .j #button {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+                background: white;
+                color: #333;
+                border: 0px;
+                font-size: 15px;
+                width: 230px;
+                height: 30px;
+                border-radius: 4px;
+                margin-bottom: 10px;
+                border-left: 4px #333 solid;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;
+                cursor: pointer;
+            }
+
+                content #youtube .j #button:hover {
+                    color: #414141;
+                    background: white;
+                    border-left: 4px #f33 solid;
+                }
+
+    content .header1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: black;
+        text-align: center;
+    }
+
+        content .header1 .Tekst1 {
+            margin-bottom: -41px;
+            color: white;
+            margin-top: -80px;
+        }
+
+            content .header1 .Tekst1 h2 {
+                margin-bottom: 0px;
+                background: transparent;
+            }
+
+        content .header1 h2 {
+            margin-bottom: 100px;
+            padding-bottom: 10px;
+        }
+
+
+
+        content .header1 img {
+            height: 200px;
+            margin-top: 40px;
+        }
+
+
+        content .header1 .btnsliderlevo {
+            background: transparent;
+            color: white;
+            border: solid 1px white;
+            border-radius: 100px;
+        }
+
+
+            content .header1 .btnsliderlevo:hover {
+                color: black;
+                background: silver;
+            }
+
+
+        content .header1 .btnsliderdesno {
+            background: transparent;
+            color: white;
+            border: solid 1px white;
+            border-radius: 100px;
+            margin-bottom: 10px;
+        }
+
+
+            content .header1 .btnsliderdesno:hover {
+                color: black;
+                background: silver;
+            }
+
+
+
+
+
+
+
+
+
+
+/* za slike */
+
+div.gallery {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-bottom: 4px solid #333;
+}
+
+    div.gallery:hover {
+        border-left: 1px solid #ccc;
+        background-color: #555555;
+        color: white;
+        border-bottom: 4px white solid;
+        /*  border-bottom: 5px solid white;*/
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* marginkraj  */
+
+
+
+
+
+/*Futer*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    background-color: white;
+    text-align: left;
+    height: 55px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+    .footer p {
+        font-size: 10pt;
+        margin-left: 30px
+        /*color: #333;
+    */
+    }
+
+    .footer a {
+        color: #333;
+        background: white;
+        font-size: 20pt;
+        display: block;
+        color: #414141;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .footer .bardesno li {
+        float: left;
+        list-style-type: none;
+        margin-left: 8px;
+    }
+
+    .footer .bardesno a:hover {
+        color: #555555;
+    }
+
+    .footer #AR {
+        font-size: 15pt;
+        margin-left: -30px;
+    }
+
+    .footer .dole {
+        float: right;
+    }
+
+        .footer .dole p {
+            font-size: 15pt;
+            margin-top: 0px;
+            margin-right: 20px;
+        }
+
+
+
+        .footer .dole a {
+            font-size: 15pt;
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+
+            .footer .dole a:hover {
+                border-bottom: 4px solid #333;
+            }
+
+
+/** ZA TEST STRANICU **/
+.frame{
+    margin-top: 50px;
+width: 100%;
+    border: 0px;
+    height: 694px;
+}
+
+#dugme {
+    cursor:grab;
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/** ZA TEST STRANICU **/
+

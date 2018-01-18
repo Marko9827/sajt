@@ -1,0 +1,1 @@
+﻿/*  Script FULL licensce EronelIT.com  */
