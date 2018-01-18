@@ -68,14 +68,14 @@ function onclick_Go1() {
 
 
 function onclick_Go2() {
-    window.location.href = '/pages/page2.html';
+    window.location.href = '/sajt/pages/page2.html';
 
 }
 
 
 
 function onclick_Go3() {
-    window.location.href = '/pages/page3.html';
+    window.location.href = '/sajt/pages/page3.html';
 
 }
 
@@ -83,7 +83,7 @@ function onclick_Go3() {
 
 
 function onclick_Go4() {
-    window.location.href = '/pages/page4.html';
+    window.location.href = '/sajt/pages/page4.html';
 
 }
 
