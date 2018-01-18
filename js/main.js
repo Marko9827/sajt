@@ -40,10 +40,12 @@ function btn() {
 
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
+    document.getElementById("body").style = "overflow-y: hidden";
 }
 
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
+    document.getElementById("body").style = "overflow-y: show";
 }
 
 
@@ -86,3 +88,7 @@ function onclick_Go4() {
 }
 
 
+/* _ PLUGIN SA MATIČNE STRANICE https://eronelit.com _ */
+/* _*/
+/* _*/
+/* _ PLUGIN SA MATIČNE STRANICE https://eronelit.com _ */
