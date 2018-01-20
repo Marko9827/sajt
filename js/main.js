@@ -51,7 +51,7 @@ function closeNav() {
 
 
 function onclick_in() {
-    window.location.href = 'https://instagram.com/nikoliccc02'
+    window.location.href = 'https://instagram.com/nikoliccc02';
 }
 
 
