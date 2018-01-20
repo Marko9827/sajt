@@ -50,7 +50,9 @@ function closeNav() {
 
 
 
-
+function onclick_in() {
+    window.location.href = 'https://instagram.com/nikoliccc02'
+}
 
 
 function onclick_yt() {
