@@ -8,6 +8,35 @@ body {
 
 
 
+#body #Sve #Content1{
+    margin-top: 50px;
+    border: 0px;
+    width: 100%;
+    height: 690px;
+}
+
+#body{
+    height: 100%;
+}
+
+
+::-webkit-scrollbar {
+width: 10px;
+height: 5px;
+}
+
+
+::-webkit-scrollbar-track-piece  {
+background-color: transparent;
+}
+
+
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #f33;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
 
 
 * {
@@ -137,10 +166,16 @@ content #tekst2 {
         margin-top: 156px;
     }
     
+    #Content .Margin_form .sve {
+    margin-left: 10px;
+    margin-top: 0px;
+}
     
-
+    
+    
+    
     content #slike {
-        margin-top: -140px;
+        margin-top: 0px;
     }
 
 
@@ -200,12 +235,13 @@ content .Margin_form .sve #name, #email, #message, #name {
     border-radius: 5px;
     color: #333;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-    margin-left: 10px;
+    margin-left: -10px;
     margin-bottom: 15px;
     height: 35px;
     min-width: 400px;
     min-height: 50px;
 }
+
 
 
 
@@ -215,7 +251,7 @@ content .Margin_form .sve #name, #email, #message, #name {
 
 content .Margin_form .sve #email:hover {
     border-left: 4px solid #333;
-}
+} 
 
 content .Margin_form .sve #message:hover {
     border-left: 4px solid #333;
@@ -302,13 +338,19 @@ content #slike {
 
 
 content .Margin_form .sve .Name_label {
-    margin-left: 10px;
+    margin-left: -100px;
     color: #333;
+}
+
+content .Margin_form #hvala{
+    font-size: 24px;
+    padding-left: 10px;
+    
 }
 
 content .Margin_form .sve {
     margin-left: 10px;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
     content .Margin_form .sve #button {
@@ -541,6 +583,8 @@ content {
 }
 
 @media screen and (max-width: 600px) {
+   
+    
     #header #Meni ul.topnav li.right,
     #header #Meni ul.topnav li {
         float: left;
@@ -871,6 +915,10 @@ div.desc {
     
 }
 
+#body #Content {
+    overflow: auto;
+}
+
 #body #Content #sve_pg1 .j .YtOpis h2 {
     font-size: 20pt;
     margin-top: 5px;
@@ -944,6 +992,8 @@ div.desc {
     right: 35px;
       
   }
+    
+   
 }
 
 
