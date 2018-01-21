@@ -36,7 +36,7 @@
 
 <!--f-->
 
-        <content id="Content">
+          <content id="Content">
 
 
 
@@ -44,16 +44,20 @@
 
             <div id="slike">
                 <div class="Margin_form">
+                    <label id="hvala">THANK YOU!</label>
                     <form class="sve">
-                        <label class="Name_label">* First Name</label>
-                        <input type="text" id="name" onmouseover="Mouseover()" onmouseout="Mouseup()" placeholder="Name" />
-                        <label class="Name_label">* Your Email</label>
+                        <label class="Name_label" id="Lb1">* First Name</label>
+                        <input type="text" id="name" placeholder="Name"  required/>
+                        <label class="Name_label" id="Lb2">* Your Email</label>
                         <p id="demo"></p>
-                        <input type="email" id="email" placeholder="Email" />
-                        <label class="Name_label">* Subject</label>
-                        <textarea id="message" placeholder="Your Message"></textarea>
+                        <input type="email" id="email" placeholder="Email" required />
+                        <label class="Name_label" id="Lb3">* Subject</label>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
                         <input type="submit" value="Submit" id="button" onclick="btn()" />
+
                         <input type="button" class="Normalno1" value="Menu" id="button" style="cursor:pointer" onclick="openNav()" />
+
+
                     </form>
                     <br />
 
@@ -75,7 +79,6 @@
 
 
         </content>
-
 
         <footer class="footer">
             <div id="bar">
