@@ -3,8 +3,25 @@ body {
     overflow-x:hidden;
     background-color: white;
     font-family: Roboto,sans-serif;
-      transition: background-color .5s;
+  
 }
+
+#body  #Sve {
+    transition: margin-left .5s;
+}
+
+#body #Sve #Content1{
+    margin-top: 50px;
+    border: 0px;
+    width: 100%;
+    height: 690px;
+}
+
+#body{
+    height: 100%;
+}
+
+
 
 
 
@@ -14,6 +31,8 @@ body {
     height: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
 }
+
+
 
 
 ::-webkit-scrollbar-track-piece {
@@ -28,9 +47,6 @@ body {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
-
-
-
 
 
 * {
@@ -234,6 +250,7 @@ content .Margin_form .sve #name, #email, #message, #name {
     height: 35px;
     min-width: 400px;
     min-height: 50px;
+    
 }
 
 
@@ -267,12 +284,14 @@ content #slike .Margin_form {
 content #slike1 {
     width: 100%;
     padding: 15px 0px 0px 15px;
+   
 }
 
 
     content #slike1 .gallery1 {
         width: 100%;
-    }
+   
+}
 
 content #slike #fa_Style {
     font-size: 120px;
@@ -332,7 +351,7 @@ content #slike {
 
 
 content .Margin_form .sve .Name_label {
-    margin-left: -100px;
+    margin-left: -10px;
     color: #333;
 }
 
@@ -575,7 +594,12 @@ content {
   
     
 }
-
+@media screen and (max-width: 524px){
+    #body #Sve .footer{
+        height: 70px;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 600px) {
    
     
@@ -989,3 +1013,14 @@ div.desc {
     
    
 }
+
+
+content #krug{
+    height: 10px;
+    width: 100px;
+    background: #f33;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: -5px;  
+}
+/** ZA TEST STRANICU **/
