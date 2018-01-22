@@ -93,15 +93,6 @@ function closeNav() {
 
 
 
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-    document.getElementById("body").style = "overflow-y: hidden";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-    document.getElementById("body").style = "overflow-y: show";
-}
 
 
 
