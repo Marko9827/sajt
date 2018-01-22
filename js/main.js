@@ -61,6 +61,38 @@ function btn() {
 
 
 
+
+
+function openNav() {
+    //document.getElementById("myNav").style.width = "100%";
+    document.getElementById("myNav").style.width = "250px";
+    document.getElementById("Sve").style.marginLeft = "250px";
+    document.getElementsByClassName("footer").style.marginLeft = "250px";
+
+    document.getElementById("body").style = "overflow-y: hidden";
+}
+
+function closeNav() {
+ //   document.getElementById("myNav").style.width = "0%";
+    document.getElementById("myNav").style.width = "0%";
+    document.getElementById("Sve").style.marginLeft = "0px";
+
+
+    document.getElementsByClassName("footer").style.marginLeft = "0px";
+    document.getElementById("body").style = "overflow-y: show";
+}
+
+
+
+
+
+
+
+
+
+
+
+
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
     document.getElementById("body").style = "overflow-y: hidden";
