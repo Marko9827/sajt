@@ -33,7 +33,8 @@ function btn() {
     var email_F = document.getElementById("email");      var lb3 = document.getElementById("Lb3");
     var message_F = document.getElementById("message");  var hvl = document.getElementById("hvala");
 
-    
+ 
+
     if (name_F.innerHTML == "")
      {
             lb1.style.color = "#ff3333";
@@ -53,9 +54,18 @@ function btn() {
    
        
 }
-                      
 
-
+function btn1() {
+    function toggleFullScreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen();
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+        }
+    }
+}
 
 
 
@@ -87,18 +97,6 @@ function closeNav() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 function onclick_yt() {
     window.location.href = 'https://www.youtube.com/SuperKuazar/';
     target = "_blank";
@@ -113,21 +111,21 @@ function onclick_in() {
 }
 
 function onclick_Go1() {
-    window.location.href = 'https://marko9827.github.io/sajt/pages/page1.html';
+    window.location.href = '/pages/page1.html';
  
 
 }
 
 
 function onclick_Go2() {
-    window.location.href = 'https://marko9827.github.io/sajt/pages/page2.html';
+    window.location.href = '/pages/page2.html';
 
 }
 
 
 
 function onclick_Go3() {
-    window.location.href = 'https://marko9827.github.io/sajt/pages/page3.html';
+    window.location.href = '/pages/page3.html';
 
 }
 
@@ -135,7 +133,7 @@ function onclick_Go3() {
 
 
 function onclick_Go4() {
-    window.location.href = 'https://marko9827.github.io/sajt/pages/page4.html';
+    window.location.href = '/pages/page4.html';
 
 }
 
