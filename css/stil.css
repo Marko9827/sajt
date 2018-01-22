@@ -3,7 +3,7 @@ body {
     overflow-x:hidden;
     background-color: white;
     font-family: Roboto,sans-serif;
-  
+      transition: background-color .5s;
 }
 
 
