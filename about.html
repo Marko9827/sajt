@@ -35,17 +35,17 @@
 
 
         <content id="Content">
-            <div id="About">
+                    <div id="About">
                 <div id="Slika">
 
                     <div id="slika1">
-                        <img src="https://marko9827.github.io/sajt/images/slika314.jpg" alt="loading..." />
+                        <img src="/images/slika314.jpg" alt="loading..." />
 
                     </div>
                     <div id="About_F">
                         <ul class="opisz">
                             <li>
-                                <h2>Marko Nikolić</h2>
+                                <h2 id="indeks">Marko Nikolić</h2>
                             </li>
                             <li>
                                 <p>
@@ -61,7 +61,6 @@
                                 <p>Student at: <a href="https://singidunum.ac.rs/" target="_blank">University of Singidunum</a>.</p>
                             </li>
                             <li>
-                                <p>Your Browser info ></p>
                                 <p id="demo"></p>
                             </li>
 
@@ -70,10 +69,35 @@
                         </ul>
                         <p id="demo"></p>
 
+
                         <script>
-                            document.getElementById("demo").innerHTML = navigator.appVersion;
+                            document.getElementById("demo").innerHTML = "Web Browser Version: " + navigator.appVersion;
                         </script>
                     </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+            
+            
+            
+            
+            
+                 <div id="youtube">
+                <div class="j">
+
+
+                    <p>
+                        How to reach us ?! / Serbia,Belgrade
+                    </p>
+
+                    <button id="button" onclick="onclick_in()">View Photo on Instagram</button>
+
                     <div id="opis">
 
 
@@ -90,23 +114,10 @@
                         </ul>
                     </div>
 
-
-
-
-                    <div id="instagramdugme">
-                        <ul><!--r-->
-                            <li>
-                                <button id="button" onclick="onclick_in()">View Photo on Instagram</button>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
+                <iframe id="youtube2" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d716409.2673405546!2d20.5047062!3d44.7877939!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ssr!2srs!4v1516819307300" frameborder="0" oncontextmenu="return false" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
             </div>
-
-
-
-
             <br />
 
             <br />
@@ -119,7 +130,10 @@
             <br />
 
             <br />
+
+
         </content>
+        <button id="myBtn" onclick="topFunction()"><i class="fa fa-arrow-circle-o-up"></i></button>
 
         <footer class="footer">
             <div id="bar">
