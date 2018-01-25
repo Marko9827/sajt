@@ -1,35 +1,36 @@
 body {
     margin: 0;
-    overflow-x:hidden;
+    overflow-x: hidden;
     background-color: white;
     font-family: Roboto,sans-serif;
-  
 }
 
-#body  #Sve {
+#body #Sve {
     transition: margin-left .5s;
 }
 
-#body #Sve #Content1{
-    margin-top: 50px;
-    border: 0px;
-    width: 100%;
-    height: 690px;
-}
+    #body #Sve #Content1 {
+        margin-top: 50px;
+        border: 0px;
+        width: 100%;
+        height: 690px;
+    }
 
-#body{
+#body {
     height: 100%;
 }
 
 
-
+#hvala {
+    display: none;
+}
 
 
 
 ::-webkit-scrollbar {
     width: 10px;
     height: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10); */
 }
 
 
@@ -43,14 +44,26 @@ body {
 
 ::-webkit-scrollbar-thumb:vertical {
     background-color: #333; /* #f33; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10); */
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
 
+    ::-webkit-scrollbar-thumb:vertical:hover {
+        background-color: #555555;
+    }
+
+
+
+
+
+
 
 * {
     box-sizing: border-box;
+}
+
+#body #Sve #Content1 {
 }
 
 
@@ -87,7 +100,7 @@ body {
                 display: none;
             }
 
-#body .sve .Normalno1{
+#body .sve .Normalno1 {
     display: none;
 }
 
@@ -136,6 +149,7 @@ ul.topnav li a.active {
 /* ceo kontekt tekst donji <-- */
 
 
+
 content #tekst2 {
     margin: 0px;
     margin-top: -10px;
@@ -175,15 +189,15 @@ content #tekst2 {
         margin: 6px 0;
         margin-top: 156px;
     }
-    
+
     #Content .Margin_form .sve {
-    margin-left: 10px;
-    margin-top: 0px;
-}
-    
-    
-    
-    
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+
+
+
     content #slike {
         margin-top: 0px;
     }
@@ -205,8 +219,7 @@ content #tekst2 {
             width: 100%;
             margin-left: 0px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-     
-    }
+        }
 
             #header #Meni ul.topnav li {
                 float: left;
@@ -223,7 +236,7 @@ content #tekst2 {
 
             #header #Meni ul.topnav .Normalno
     /* Kraj */
-    
+
 }
 
 
@@ -232,10 +245,10 @@ content #tekst2 {
     .responsive {
         width: 100%;
     }
-    
-    
-  
-   
+
+    #Content #slike {
+        margin-top: -140px;
+    }
 }
 
 
@@ -250,7 +263,6 @@ content .Margin_form .sve #name, #email, #message, #name {
     height: 35px;
     min-width: 400px;
     min-height: 50px;
-    
 }
 
 
@@ -262,7 +274,7 @@ content .Margin_form .sve #name, #email, #message, #name {
 
 content .Margin_form .sve #email:hover {
     border-left: 4px solid #333;
-} 
+}
 
 content .Margin_form .sve #message:hover {
     border-left: 4px solid #333;
@@ -284,14 +296,12 @@ content #slike .Margin_form {
 content #slike1 {
     width: 100%;
     padding: 15px 0px 0px 15px;
-   
 }
 
 
     content #slike1 .gallery1 {
         width: 100%;
-   
-}
+    }
 
 content #slike #fa_Style {
     font-size: 120px;
@@ -304,11 +314,16 @@ content #slike .desc {
     height: 150px;
 }
 
-content #slike #button {
+
+/*TB*/
+
+
+
+#button {
     height: 30px;
     margin-left: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-    background: transparent;
+    background: white;
     color: #333;
     border: 0px;
     font-size: 15px;
@@ -323,10 +338,35 @@ content #slike #button {
 
 
 
-    content #slike #button:hover {
+    #button:hover {
         border-left: 4px white solid;
         color: white;
         background: #414141;
+    }
+
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 99;
+    border: 3px #333 solid;
+    outline: none;
+    background: white;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+    #myBtn:hover {
+        background: #333;
+        color: white;
     }
 
 
@@ -355,10 +395,9 @@ content .Margin_form .sve .Name_label {
     color: #333;
 }
 
-content .Margin_form #hvala{
+content .Margin_form #hvala {
     font-size: 24px;
     padding-left: 10px;
-    
 }
 
 content .Margin_form .sve {
@@ -409,6 +448,7 @@ content #About {
         padding-left: 15px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
         height: 450px;
+        background: white;
     }
 
         content #About #Slika #slika1 {
@@ -428,10 +468,7 @@ content #About {
 
 
 
-        content #About #Slika #opis .bardesno {
-            margin-left: -48px;
-            margin-top: 228px;
-        }
+
 
         content #About #Slika #About_F {
         }
@@ -462,56 +499,33 @@ content #About {
                 }
 
 
-        content #About #Slika #instagramdugme ul li {
-            margin-left: -10px;
-            text-decoration: none;
-            list-style-type: none;
-        }
-
-        content #About #Slika #instagramdugme #button {
-            text-decoration: none;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-            background: white;
-            color: #333;
-            border: 0px;
-            font-size: 15px;
-            width: 230px;
-            height: 30px;
-            border-radius: 4px;
-            margin-bottom: 10px;
-            border-left: 4px #333 solid;
-            margin-left: -235px;
-            margin-right: 10px;
-            text-align: left;
-            text-decoration: none;
-            margin-top: 20px;
-            cursor: pointer;
-        }
-
-            content #About #Slika #instagramdugme #button:hover {
-                background: #333;
-                border-left: 4px white solid;
-                color: white;
-            }
 
 
-        content #About #Slika #opis .bardesno li {
-            float: left;
-            list-style-type: none;
-            margin-left: 8px;
-            font-size: 19px;
-            margin-top: -20px;
+
+
+#opis .bardesno {
+    margin-left: -39px;
+}
+
+
+    #opis .bardesno li {
+        float: left;
+        list-style-type: none;
+        margin-left: 8px;
+        font-size: 19px;
+        margin-top: -20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+        #opis .bardesno li a {
             color: #333;
         }
 
-            content #About #Slika #opis .bardesno li a {
-                color: #333;
-            }
 
-
-                Content #About #Slika #opis .bardesno li a:hover {
-                    color: #555555;
-                }
+Content #About #Slika #opis .bardesno li a:hover {
+    color: #555555;
+}
 
 
 
@@ -539,15 +553,20 @@ content .slike:after {
     content .slika {
         width: 100%;
     }
-    
+
+    #Content #slike {
+        margin-top: 0px;
+    }
+
+        #Content #slike .Margin_form {
+            margin-top: 70px;
+        }
 }
 
 @media (max-width:500px) {
     content .slike {
         width: 40px;
     }
-    
-    
 }
 
 
@@ -585,24 +604,23 @@ content {
     #header form .search {
         display: none;
     }
-    
-      .footer{
+
+    .footer {
         height: 100px;
         width: 100xp;
     }
-    
-  
-    
 }
-@media screen and (max-width: 524px){
-    #body #Sve .footer{
+
+@media screen and (max-width: 524px) {
+    #body #Sve .footer {
         height: 70px;
         text-align: center;
     }
 }
+
 @media screen and (max-width: 600px) {
-   
-    
+
+
     #header #Meni ul.topnav li.right,
     #header #Meni ul.topnav li {
         float: left;
@@ -623,26 +641,26 @@ content {
         #header #Meni ul.topnav li a .Normalno1:hover {
             margin-bottom: 0px;
         }
-   
-    
-      #body .sve .Normalno1{
-    display: block;
-}
-    
-    #body .footer{
-       height: 55px;
-    
+
+
+    #body .sve .Normalno1 {
+        display: block;
     }
-    
-    
-    
-    #body #bar .bardesno #AR{
+
+    #body .footer {
+        height: 55px;
+    }
+
+
+
+    #body #bar .bardesno #AR {
         margin-left: -35px;
     }
-    #body #bar .dole p{
+
+    #body #bar .dole p {
         margin-left: 0px;
     }
-} 
+}
 
 
 
@@ -668,6 +686,7 @@ content {
         border-top: 10px #333 solid;
         border-bottom: 10px #f33 solid;
         margin-bottom: 15px;
+        background: white;
     }
 
         content #youtube #youtube2 {
@@ -691,94 +710,96 @@ content {
 }
 
 
-            content #youtube .j #button {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-                background: white;
-                color: #333;
-                border: 0px;
-                font-size: 15px;
-                width: 230px;
-                height: 30px;
-                border-radius: 4px;
-                margin-bottom: 10px;
-                border-left: 4px #333 solid;
-                margin-left: 10px;
-                margin-right: 10px;
-                text-align: left;
-                cursor: pointer;
-            }
+content #youtube .j #button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    background: white;
+    color: #333;
+    border: 0px;
+    font-size: 15px;
+    width: 230px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-left: 4px #333 solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    cursor: pointer;
+}
 
-                content #youtube .j #button:hover {
-                    color: #414141;
-                    background: white;
-                    border-left: 4px #f33 solid;
-                }
+    content #youtube .j #button:hover {
+        color: #414141;
+        background: white;
+        border-left: 4px #f33 solid;
+    }
 
 
-#body #Content #sve_pg1 #youtube #youtube2.youtube1{
-  height: 100%;
+#body #Content #sve_pg1 #youtube #youtube2.youtube1 {
+    height: 100%;
 }
 
 
+#body #Sve #Content #youtube {
+    margin-top: 15px;
+}
 
+content .header1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: black;
+    text-align: center;
+}
 
-    content .header1 {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: black;
-        text-align: center;
+    content .header1 .Tekst1 {
+        margin-bottom: -41px;
+        color: white;
+        margin-top: -80px;
     }
 
-        content .header1 .Tekst1 {
-            margin-bottom: -41px;
-            color: white;
-            margin-top: -80px;
-        }
-
-            content .header1 .Tekst1 h2 {
-                margin-bottom: 0px;
-                background: transparent;
-            }
-
-        content .header1 h2 {
-            margin-bottom: 100px;
-            padding-bottom: 10px;
-        }
-
-
-
-        content .header1 img {
-            height: 200px;
-            margin-top: 40px;
-        }
-
-
-        content .header1 .btnsliderlevo {
+        content .header1 .Tekst1 h2 {
+            margin-bottom: 0px;
             background: transparent;
-            color: white;
-            border: solid 1px white;
-            border-radius: 100px;
+        }
+
+    content .header1 h2 {
+        margin-bottom: 100px;
+        padding-bottom: 10px;
+    }
+
+
+
+    content .header1 img {
+        height: 200px;
+        margin-top: 40px;
+    }
+
+
+    content .header1 .btnsliderlevo {
+        background: transparent;
+        color: white;
+        border: solid 1px white;
+        border-radius: 100px;
+    }
+
+
+        content .header1 .btnsliderlevo:hover {
+            color: black;
+            background: silver;
         }
 
 
-            content .header1 .btnsliderlevo:hover {
-                color: black;
-                background: silver;
-            }
+    content .header1 .btnsliderdesno {
+        background: transparent;
+        color: white;
+        border: solid 1px white;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
 
 
-        content .header1 .btnsliderdesno {
-            background: transparent;
-            color: white;
-            border: solid 1px white;
-            border-radius: 100px;
-            margin-bottom: 10px;
+        content .header1 .btnsliderdesno:hover {
+            color: black;
+            background: silver;
         }
-
-
-            content .header1 .btnsliderdesno:hover {
-                color: black;
-                background: silver;
-            }
 
 
 
@@ -858,7 +879,7 @@ div.desc {
     .footer a {
         color: #333;
         background: white;
-           font-size: 15pt;
+        font-size: 15pt;
         display: block;
         color: #414141;
         text-align: center;
@@ -903,18 +924,18 @@ div.desc {
                 border-bottom: 4px solid #333;
             }
 
-.footer #bar .bardesno #TR{
-    margin-left: -45px;
-}
+    .footer #bar .bardesno #TR {
+        margin-left: -45px;
+    }
 
-.footer #bar .bardesno #TR ul li a:hover{
-    border-bottom: 4px #333 solid;
-}
+        .footer #bar .bardesno #TR ul li a:hover {
+            border-bottom: 4px #333 solid;
+        }
 
 
 
 /** ZA TEST STRANICU **/
-.frame{
+.frame {
     margin-top: 50px;
     width: 100%;
     border: 0px;
@@ -922,38 +943,35 @@ div.desc {
 }
 
 #dugme {
-    cursor:grab;
+    cursor: grab;
 }
 
-#sve_pg1{
+#sve_pg1 {
     padding-top: 65px;
 }
 
 #body #Content #sve_pg1 .j .YtOpis {
-    
 }
 
 #body #Content {
     overflow: auto;
 }
 
-#body #Content #sve_pg1 .j .YtOpis h2 {
-    font-size: 20pt;
-    margin-top: 5px;
-    margin-bottom: -10px;
-    margin-left: 10px;
- 
-}
+    #body #Content #sve_pg1 .j .YtOpis h2 {
+        font-size: 20pt;
+        margin-top: 5px;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
 
-#body #Content #sve_pg1 .j .YtOpis p{
-    font-size: 15px;
-    margin-left: 10px;
-}
+    #body #Content #sve_pg1 .j .YtOpis p {
+        font-size: 15px;
+        margin-left: 10px;
+    }
 
 
 
 #body #Sve .footer #bar .EN_class {
-   
 }
 
 .overlay {
@@ -963,11 +981,9 @@ div.desc {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: #333;
     overflow-x: hidden;
     transition: 0.5s;
-    
 }
 
 .overlay-content {
@@ -985,42 +1001,58 @@ div.desc {
     color: #818181;
     display: block;
     transition: 0.3s;
-    
 }
 
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-    
-
-}
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
 
 .overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
-    
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-      
-  }
-    
-   
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }
 
 
-content #krug{
+content #krug {
     height: 10px;
     width: 100px;
     background: #f33;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   margin-bottom: -5px;  
+    margin-bottom: -5px;
 }
 /** ZA TEST STRANICU **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
